@@ -1,6 +1,7 @@
 spring:
   profiles:
-    active: test
+    active: dev
+#切换环境要从config项目中的bootstrap.yml中配置使用哪套环境    
 ---
 server:
   port: 8001
